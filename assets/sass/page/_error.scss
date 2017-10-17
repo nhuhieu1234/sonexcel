@@ -1,0 +1,62 @@
+.error-page {
+    position: relative;
+    background: url(../img/background/bg1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    .wrp-error {
+    	text-shadow: 0 2px 2px rgba(0,0,0,0.6);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        width: 50%;
+        text-align: center;
+        color: white;
+        padding: 20px 15px;
+        background: rgba(255, 255, 255, 0.2);
+        @include breakpoint (small-tablet) {
+            width: 95%;
+        }
+        h1 {
+        	margin: 0;
+            font-size: 115px;
+            @include breakpoint (small-tablet) {
+                font-size: 100px;
+            }
+            @include breakpoint (mid-phone) {
+                font-size: 70px;
+            }
+        }
+        h2 {
+            font-weight: bold;
+            @include breakpoint (mid-phone) {
+                font-size: 20px;
+            }
+        }
+        p {
+        	font-size: 16px;
+        	 @include breakpoint (small-tablet) {
+                font-size: 14px;
+            }
+        }
+        .btn {
+        	text-shadow: none;
+            border-radius: 40px !important;
+            margin-top: 10%;
+            width: 25%;
+            @include breakpoint (tablet) {
+                width: 30%;
+            }
+            @include breakpoint (small-tablet) {
+                font-size: 12px;
+                width: 22%;
+                margin-top: 5%;
+            }
+            @include breakpoint (mid-phone) {
+                width: 35%;
+            }
+        }
+    }
+}

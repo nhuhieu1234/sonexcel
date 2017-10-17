@@ -1,0 +1,25 @@
+body {
+	// background: black !important;
+	.modal-backdrop {
+		position: unset;
+	}
+	.modal {
+		background: rgba(0, 0, 0, 0.8);
+	}
+	.title {
+		text-align: center;
+	}
+	.button-success {
+		text-align: center;
+	}
+	.navbar-brand {
+		text-transform: uppercase;
+	}
+	.card {
+		.header {
+			.title {
+				text-transform: uppercase;
+			}
+		}
+	}
+}
