@@ -231,9 +231,6 @@ body .card .header .title {
 .edit-user .card-user .infor p {
   margin: 0; }
 
-.comments .cmt {
-  max-width: 400px; }
-
 .home .card {
   box-shadow: none; }
   .home .card .panel {
